@@ -20,9 +20,9 @@
 ## Admin/Staff Login
 Untuk login sebagai Admin/Staff dapat login melalui salah satu dari kedua destination/link berikut. Keduanya sama termasuk segi fungsionalitasnya.
 
-[Admin/Staff Login Page ("admin" folder)](http://localhost/AMDP3%20-%202440009042/admin/login.php)
+[Admin/Staff Login Page ("admin" folder)](http://localhost/online-store/admin/login.php)
 
-[Admin/Staff Login Page ("staff" folder)](http://localhost/AMDP3%20-%202440009042/staff/login.php)
+[Admin/Staff Login Page ("staff" folder)](http://localhost/online-store/staff/login.php)
 
 #### Pada halaman login, dapat digunakan antara username atau email.
 
@@ -41,4 +41,4 @@ Password : janedoe
 ## Customer Login
 Untuk login sebagai customer, login melalui destination/link berikut.
 
-[Customer Login Page](http://localhost/AMDP3%20-%202440009042/login.php)
+[Customer Login Page](http://localhost/online-store/login.php)
