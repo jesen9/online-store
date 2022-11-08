@@ -1,1 +1,1 @@
-<?php $connect = new mysqli("localhost","root","","projek2"); ?>
+<?php $connect = new mysqli("localhost","root","","onlinestoredb"); ?>

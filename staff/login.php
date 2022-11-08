@@ -1,6 +1,6 @@
 <?php
 session_start();
-$connect = new mysqli("localhost","root","","projek2");
+$connect = new mysqli("localhost","root","","onlinestoredb");
 // if(isset($_SESSION['admin']))
 // {
 //     echo "<script>location='../admin/index.php'</script>";
