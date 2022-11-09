@@ -69,7 +69,7 @@ while($each = $ambil->fetch_assoc())
 <?php 
 if(isset($_POST['save']))
 {
-    $namafoto = $_FILES['foto']['name'];
+    $namafoto = md5($_FILES['foto']['name']).'.'.pathinfo($_FILES['foto']['name'],PATHINFO_EXTENSION);
     $loc = $_FILES['foto']['tmp_name'];
 
     if(!empty($loc))
