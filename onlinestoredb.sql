@@ -163,7 +163,7 @@ CREATE TABLE `pembelian` (
   `tarif` int(11) NOT NULL,
   `alamat_pengiriman` text NOT NULL,
   `status_pembelian` varchar(255) NOT NULL DEFAULT 'Pending',
-  `resi_pengiriman` varchar(255) NOT NULL
+  `resi_pengiriman` varchar(255) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
