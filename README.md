@@ -43,13 +43,13 @@ Untuk login sebagai Admin/Staff dapat login melalui salah satu dari kedua destin
 
 #### Pada halaman login, dapat digunakan antara username atau email.
 
-```python
+```
 Akun Admin
 
 Username/Email : admin / jasonlionardi@yahoo.com
 Password : admin
 ```
-```python
+```
 Akun Staff
 
 Username/Email : janedoe / janedoe@mail.com
