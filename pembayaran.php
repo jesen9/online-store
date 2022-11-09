@@ -69,7 +69,7 @@ if($id_pelanggan_login !== $id_pelanggan_beli)
 <?php
 if(isset($_POST['send']))
 {
-    $namabukti = $_FILES['bukti']['name'];
+    $namabukti = md5($_FILES['bukti']['name']).'.'.pathinfo($_FILES['bukti']['name'],PATHINFO_EXTENSION);
     $lokasibukti = $_FILES['bukti']["tmp_name"];
     $fixedname = date("YmdHis").$namabukti;
     move_uploaded_file($lokasibukti, "receipt/$fixedname");

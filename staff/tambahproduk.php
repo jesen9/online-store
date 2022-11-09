@@ -45,7 +45,7 @@
 <?php 
 if(isset($_POST['save']))
 {
-    $nama = $_FILES['foto']['name'];
+    $nama = md5($_FILES['foto']['name']).'.'.pathinfo($_FILES['foto']['name'],PATHINFO_EXTENSION);
     $loc = $_FILES['foto']['tmp_name'];
     move_uploaded_file($loc, "../foto_produk/".$nama);
     $connect->query("INSERT INTO produk (id_kategori, nama_produk, harga_produk, berat_produk, foto_produk, deskripsi_produk, stok_produk) VALUES ('$_POST[id_kategori]', '$_POST[nama]', '$_POST[harga]', '$_POST[berat]', '$nama', '$_POST[deskripsi]', $_POST[stock])");

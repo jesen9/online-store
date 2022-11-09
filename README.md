@@ -13,6 +13,7 @@
 2. change owner of file upload destination directory to httpd process owner
 
    `sudo chown [httpd proc owner] /Applications/XAMPP/xamppfiles/htdocs/online-store/foto_produk/`
+   `sudo chown [httpd proc owner] /Applications/XAMPP/xamppfiles/htdocs/online-store/receipt/`
 
 ## Database Server:
 
